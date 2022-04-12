@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <title>Detail Cryptoview</title>
+</head>
+
+<body>
+    <section class="navagation">
+        <nav>
+            <h1>nav</h1>
+        </nav>
+    </section>
+
+    <!-- price and description -->
+    <section class="descreption_price flex_container">
+
+        <!-- descreption -->
+        <div class="descreption">
+            <img src="" id="coin_img" alt="imh">
+            <h1 id="coin_name"></h1><br>
+            <p class="text_justify" id="coin_description"></p>
+        </div>
+
+
+        <!-- price -->
+        <div class="price">
+            <h1>Price</h1>
+            <table>
+                <tr>
+                    <td>INR</td>
+                    <td><span id="inr_price"></span></td>
+                </tr>
+
+                <tr>
+                    <td>USD</td>
+                    <td><span id="usd_price"></span></td>
+                </tr>
+
+                <tr>
+                    <td>EUR</td>
+                    <td> <span id="eur_price"></span></td>
+                </tr>
+
+            </table>
+        </div>
+
+    </section>
+
+
+    <!-- histry -->
+
+
+    <br>
+    <br>
+    <section class="histrolical ">
+
+        <!-- <h1>Chart</h1> -->
+        <canvas id="myChart"></canvas>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="details.js"></script>
+</body>
+
+</html>

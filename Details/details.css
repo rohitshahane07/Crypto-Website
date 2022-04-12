@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.navagation{
+    background-color: aquamarine;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    display: inline-block;
+}
+.descreption > img{
+    position: relative;
+    top: 5px;
+}
+.descreption{
+    width: 30rem;
+}
+.text_justify{
+    text-align: justify;
+}
+
+.histrolical{
+    width: 70vw;
+    height: 15rem;
+    margin: auto;
+}

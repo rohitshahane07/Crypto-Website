@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFEF;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+
+
+nav{
+    height: 3rem;
+    background-color: #FFFF;
+}
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.flex_container > .scorll_animation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.main{
+    padding: 5rem;
+    justify-content: space-evenly;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: xx-large;
+    align-items: center;
+}
+
+.main>img{
+    width: 10rem;
+}
+.trandinding_coin {
+    background-color: #CAF0F8;
+    padding: 2rem;
+    overflow: hidden;
+  
+    
+}
+
+.trandinding_coin > .scorll_animation{
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    /* overflow-x: scroll; */
+    justify-content: flex-start;
+    position: relative;
+ animation-name: smooth_scroll;
+ animation-duration: 20s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+
+}
+
+.features{
+    background-color: #ade8f4;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+.trandinding_coin .card{
+    background-color: white;
+    padding: 0.5px 1rem;
+    margin: 0px 5vw;
+    border-radius: 5px;
+    width: 8rem;
+    flex-shrink: 0;
+    /* margin-inline: 3rem; */
+}
+.card >h3{
+    text-align: center;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+
+}
+
+.ml_1{
+    margin-left: 1rem;
+}
+.features > .card {
+    background-color: white;
+    text-align-last: center;
+    padding: 1rem;
+    width: 20vw;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+@keyframes smooth_scroll {
+    from {
+        left: 0%;
+    }
+    to{
+        left: -100%;
+    }
+}
